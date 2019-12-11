@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <!-- meta tags -->
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description"
+          content="The API Superstore provides fast access to the most cutting edge APIs available online.">
+     <meta name="keywords" content="API,Superstore, Web Technology">
+     <meta name="author" content="Drew Donaghy">
+     <title>API Superstore</title>
+
+     <!-- Bootstrap CSS Framework -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+     <!-- Custom CSS -->
+     <link rel="stylesheet" type="text/css" href="main.css">
+     <link rel="stylesheet" type="text/css" href="animation.css">
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css">
+
+     <!-- google fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500|Work+Sans:400,500,600,700,900&display=swap"
+          rel="stylesheet">
+
+     <!-- icons -->
+     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+     <meta name="msapplication-wide310x150logo" content="images/tile-wide.png" />
+     <meta name="msapplication-square310x310logo" content="images/tile.png" />
+
+</head>
+
+<body>
+
+
+<a href="#" id="logo">
+<img class="header_logo"  src="images/api_logo.svg">
+</a>
+
+<nav id="myNav" class="overlay">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <div class="overlay-content">
+       <a class="intNav" onclick="closeNav()" href="#video">VIDEO</a>
+       <a class="intNav" onclick="closeNav()" href="#features">FEATURES</a>
+       <a class="intNav" onclick="closeNav()" href="#plans">PLANS</a>
+       <a class="intNav" onclick="closeNav()" href="#testimonials">TESTIMONIALS</a>
+     </div>
+</nav>
+   
+   <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+
+
+
+
+     
+     <div class="jumbotron fluid-jumbotron align-items-center_1">
+
+          <div class="container">
+               <div class="col-lg-6 col-sm-8 col-xs-12 animatable fadeInUp">
+                    <h1 class="display-1">Illuminating Your Best Ideas</h1>
+                    <p class="lead">The API Superstore provides fast access to the most cutting edge APIs available
+                         online.</p>
+                    <a class="btn btn-primary btn-lg" href="#plans" role="button">See Plans</a>
+               </div>
+
+          </div>
+
+     </div>
+
+     <div class="mb-5"></div>
+
+     <div class="margin-bottom hello" id="video"></div>
+     <div class="container embed-responsive embed-responsive-16by9 margin-bottom">
+
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xDl5m_mJrAM?rel=0"
+               allowfullscreen></iframe>
+          <div class="hello"></div>
+     </div>
+
+
+     <section class="container-fluid features pt-4 pb-5" id="features">
+
+
+          <h2 class="display-3 container mb-4">Features</h2>
+
+          <div class="row justify-content-start animatable fadeInUp mb-5 nowrap">
+               <div class="col-2 offset-lg-1 offset-md-1 offset-sm-0"><img class="svg-max img-fluid float-right"
+                         src="images/a-icon.svg" alt="api logo"></div>
+
+               <div class="display-4 col-lg-4 col-md-7 col-sm-10">
+                    <p class="text-md-left">
+                         Access to the most powerful API’s from all over the web.
+                    </p>
+               </div>
+          </div>
+
+          <div class="row animatable fadeInUp mb-5 nowrap">
+               <div class="col-2 offset-lg-5 offset-md-3 offset-sm-0"><img class="svg-max img-fluid float-right"
+                         src="images/p-icon.svg" alt="api logo"></div>
+               <div class=" display-4 col-lg-4 col-md-7 col-sm-10">
+                    <p class="text-md-left">
+                         Pay as you go. No long term contracts. Subscribe today!
+                    </p>
+               </div>
+          </div>
+
+          <div class="row animatable fadeInUp pt-lg-4 pt-sm-0 mb-lg-5 mb-sm-1 nowrap">
+               <div class="col-2 offset-lg-2 offset-md-1 offset-sm-0"><img class="svg-max img-fluid float-right"
+                         src="images/i-icon.svg" alt="api logo"></div>
+               <div class="col-lg-4 col-md-7 col-sm-10">
+                    <p class="text-md-left display-4">
+                         Intuitive interface. Get what you need, hassle free.
+                    </p>
+               </div>
+          </div>
+
+         
+     </section>
+
+     <section class="container-fluid light-gray pt-4 pb-5" id="plans">
+
+          <div class="container">
+               <h2 class="display-3 fadeInUp mb-4 pricing">Plans</h2>
+               <div class="row">
+                    <div class="col-lg-4 mb-4 animatable fadeInUp">
+                         <div class="card h-100">
+                              <h3 class="card-header">Basic</h3>
+                              <div class="card-body">
+                                   <div class="display-4 pricing">$19.99</div>
+                                   <div class="font-italic">per month</div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                   <li class="list-group-item">You get access to all of our basic utilities at a low
+                                        monthly
+                                        cost. It’s never been easier to sign up. Pay per month. No commitment.</li>
+                                   <li class="list-group-item">
+                                        <a href="#" class="btn btn-primary">Sign Up</a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 animatable fadeInUp">
+                         <div class="card card-outline-primary h-100">
+                              <h3 class="card-header">Professional</h3>
+                              <div class="card-body">
+                                   <div class="display-4 pricing">$39.99</div>
+                                   <div class="font-italic">per month</div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                   <li class="list-group-item">You get access to all of our professional utilities at a
+                                        low monthly cost. It’s never been easier to sign up. Pay per month. No
+                                        commitment.
+                                   </li>
+                                   <li class="list-group-item">
+                                        <a href="#" class="btn btn-primary">Sign Up</a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 animatable fadeInUp">
+                         <div class="card h-100">
+                              <h3 class="card-header">Advanced</h3>
+                              <div class="card-body">
+                                   <div class="display-4 pricing">$159.99</div>
+                                   <div class="font-italic">per month</div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                   <li class="list-group-item">You get access to all of our advanced utilities at a low
+                                        monthly cost. It’s never been easier to sign up. Pay per month. No commitment.
+                                   </li>
+                                   <li class="list-group-item">
+                                        <a href="#" class="btn btn-primary">Sign Up</a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+         
+     </section>
+
+
+
+     <section class="container-fluid testimonials pt-4 pb-5" id="testimonials">
+
+          <h2 class="display-3 container mb-4">Testimonials</h2>
+
+          <div class="row container align-items-center_1 mx-auto">
+               <div class="col-md-6 col-sm-12 mb-5">
+                    <div class="tm mza mb-5 animatable fadeInUp">
+                         <img class="img-fluid mx-auto imgWidth mb-1" src="images/t1.jpg" alt="Customer Photo">
+                         <div>
+                              <div>
+                                   <h3 class="t-name">Susan</h3>
+                                   <h3 class="t-job">Microsoft Product Manager</h3>
+                                   <p class="white">“This is the best website ever! The ease at which I can search and
+                                        find the
+                                        perfect API
+                                        has made my workflow incredibly efficient.”</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="tm mza animatable fadeInUp">
+
+                         <img class="img-fluid mx-auto imgWidth mb-1" src="images/t3.jpg" alt="Customer Photo">
+                         <div>
+                              <h3 class="t-name">Debra</h3>
+                              <h3 class="t-job">Google UX Designer</h3>
+                              <p class="white">“Once again, I’m blown away by the amazing offerings of the API
+                                   Superstore. You
+                                   really are Super!”</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-6 col-sm-12 animatable fadeInUp">
+                    <div class="tm mza">
+                         <img class="img-fluid mx-auto imgWidth mb-1" src="images/t2.jpg" alt="Customer Photo">
+                         <div>
+                              <h3 class="t-name">Kevin</h3>
+                              <h3 class="t-job">Apple Product Designer</h3>
+                              <p class="white">“I admire the API Superstore’s unparalleled interface for browsing API’s.
+                                   For a
+                                   low monthly fee, I’m able to keep up with the flow of information that makes
+                                   application
+                                   development difficult.”</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <footer class="container-fluid">
+
+          <div class="pt-5 pb-5 ml-sm-4 ml-xs-0">
+
+
+
+               <div class="contact mb-2 pt-5 pb-1">
+                    <h2>Contact</h2>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt"></i> 2111 7th Ave, Seattle, WA 98121</p>
+                    <p><i class="fas fa-phone-square"></i> 123.456.7891</p>
+                    <p><i class="fas fa-envelope-open-text"></i> <a href="">services@apisuperstore.com</a></p>
+               </div>
+
+
+
+               <div class="align-items-center_1 pb-5">
+
+                    <div class="fb-share-button noLineHeight mr-1"
+                         data-href="https://apdonaghy.github.io/wats3010-product-page/" data-layout="button"
+                         data-size="small"><a target="_blank"
+                              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fapdonaghy.github.io%2Fwats3010-product-page%2F&amp;src=sdkpreparse"
+                              class="fb-xfbml-parse-ignore">Share</a></div>
+                    <div class="noLineHeight">
+                         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                              data-show-count="false">Tweet</a>
+                         <script async src="https://platform.twitter.com/widgets.js"></script>
+                    </div>
+
+               </div>
+               <a href="#logo"><img class="arrow"  src="images/arrow.svg"><a>
+          </div>
+    
+     </footer>
+   
+          <p class="black copyright"><i class="fas fa-copyright"></i>2020 API Super Store</p>
+    
+
+     <script>
+
+     </script>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+     </script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+     </script>
+
+
+     <script src="scripts.js"></script>
+     <div id="fb-root"></div>
+     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0">
+     </script>
+
+
+</body>
+
+</html>
