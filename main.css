@@ -19,6 +19,14 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    z-index: 1;
+  }
+
+
 .header_logo{
     margin-top:20px;
     margin-left:20px;

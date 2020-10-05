@@ -33,7 +33,21 @@
                document.getElementById("myNav").style.width = "0%";
              }
 
-             window.onscroll = () => {
-               const nav = document.querySelector('#logo');
-               if(this.scrollY <= 10) nav.className = ''; else nav.className = 'hidden';
-             };
+          //    window.onscroll = () => {
+          //      const nav = document.querySelector('#logo');
+          //      if(this.scrollY <= 10) nav.className = ''; else nav.className = 'hidden';
+          //    };
+
+          let prevScrollpos = window.pageYOffset;
+     window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector("#navbar").style.top = "0";
+    } else if(currentScrollPos < 20){
+        document.querySelector("#navbar").style.top = "0";
+    }
+    else{
+        document.querySelector("#navbar").style.top = "-70px";
+    }
+    prevScrollpos = currentScrollPos;
+}
